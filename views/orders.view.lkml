@@ -43,6 +43,7 @@ view: orders {
   }
 
   dimension: date {
+    type: string
     sql:
     {% if date_granularity._parameter_value == 'Day' %}
       ${created_date}
