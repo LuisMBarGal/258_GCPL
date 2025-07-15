@@ -28,6 +28,7 @@ view: orders {
 
   parameter: date_granularity {
     type: unquoted
+    default_value:"Month"
     allowed_value: {
       label: "Break down by Day"
       value: "Day"
