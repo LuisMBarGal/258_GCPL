@@ -28,7 +28,7 @@
       _kind_hint: measure
       _type_hint: number
     - category: table_calculation
-      expression: "${inventory_items.count}/${percent_of_inventory_items_count}/L"
+      expression: "${inventory_items.count}/${percent_of_inventory_items_count}\L"
       label: Custom Expr
       value_format:
       value_format_name:
